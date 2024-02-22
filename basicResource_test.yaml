@@ -62,7 +62,7 @@ tests:
         resource: resource1
         actions:
           read: EFFECT_DENY
-          update: EFFECT_ALLOW
+          update: EFFECT_DENY
           delete: EFFECT_ALLOW
       - principal: ian
         resource: resource2
